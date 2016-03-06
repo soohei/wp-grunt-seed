@@ -48,7 +48,7 @@ $png-2x-sprites: sprite-map('png_2x/*.png', $spacing: 4px);
     .svg & {
       background-image: inline-image('../svg_min/#{$sprite}.svg', 'image/svg+xml');
       background-position: 0 0;
-      background-size: image-width(sprite-path($png-1x-sprites)) auto;
+      background-size: image-width( $sprite-image ) image-height( $sprite-image );
     }
   }
 }

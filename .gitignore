@@ -93,6 +93,7 @@ bower_components
 
 node_modules
 .npm-debug.log
+npm-debug.log
 wp-content/themes/sample_theme/.tmp
 wp-content/themes/sample_theme/assets
 wp-content/themes/sample_theme/source/svg_min
